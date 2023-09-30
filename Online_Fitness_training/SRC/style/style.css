@@ -106,7 +106,6 @@ nav ul li a:hover{
     
 }
 footer{
-    flex-shrink: 0;
     flex-direction: baseline;
     position: fixed;
     bottom: 0%;
@@ -135,7 +134,7 @@ footer{
 .footer-logo{
     height: 30px;
     width: 30px;
-    padding-left: 3%;
+    padding-left: 2%;
     padding-top: 2%;
 }
 .social{
@@ -172,6 +171,7 @@ span{
     text-decoration: underline;
 }
 .f1rst{
+    width: 10%;
     padding-left: 1%;
     padding-right: 1%;
     align-self: center;
@@ -207,6 +207,6 @@ span{
 
 .container-body{
     display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
 }
