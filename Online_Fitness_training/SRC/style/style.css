@@ -139,6 +139,7 @@ footer{
 }
 .social{
     flex-shrink: 0;
+    text-wrap: nowrap;
     cursor: pointer;
     padding-left: 1%;
     align-self: flex-start;
