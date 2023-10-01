@@ -56,7 +56,7 @@ body{
 .navbar{
     height: 12%;
     display: flex;
-    align-items: center;
+    flex-wrap: nowrap;
 }
 .sitename{
     float: left;
@@ -75,14 +75,23 @@ body{
 .navbar nav{
     height: 45px;
     width: 100%;
-    flex: 1;
-    text-align: right;
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
     background-color: #989898;
     opacity: 0.9;
     border-radius: 15px;
 }
+nav ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 nav ul li{
-    margin-right: 20px;
+    padding: 15px;
     list-style: none;
     display: inline-block;
     margin-left: 5%;
