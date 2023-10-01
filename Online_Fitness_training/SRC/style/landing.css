@@ -6,6 +6,10 @@
     overflow-y: auto;
 
 }
+
+
+
+
 .welcome-heading{
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -64,9 +68,11 @@
 
 .explore{
     display: flex;
+    flex-direction: column;
     opacity: 1;
+    gap: 12px;
     align-items: center;
-     transition: opacity 0.5s ease-in;
+    transition: opacity 0.5s ease-in;
 }
 .explore.show{
   opacity: 0;
@@ -76,6 +82,10 @@
     background-size: cover;
     width: 100%;
     border-radius: 10px;
+}
+.wo1{
+    display: flex;
+    
 }
 .explore-text{
     background-color: #a1a5a1;
