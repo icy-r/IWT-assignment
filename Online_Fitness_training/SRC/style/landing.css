@@ -33,6 +33,7 @@
     padding-top: 1%;
     color: #ffffff;
     width:100%;
+    height: 90vh;
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
@@ -53,23 +54,49 @@
 #get-started:hover{
     background-color: #f2f2f2;
     color: #e2787c;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 #get-started:not(:hover){
     background-color: #e2787c;
     color: #f2f2f2;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 .explore{
-  opacity: 1;
-  transition: opacity 0.5s ease-in;
+    display: flex;
+    opacity: 1;
+    align-items: center;
+     transition: opacity 0.5s ease-in;
 }
 .explore.show{
   opacity: 0;
+  display: flex;
 }
 #explore{
     background-size: cover;
     width: 100%;
     border-radius: 10px;
+}
+.explore-text{
+    background-color: #a1a5a1;
+    opacity: 0.5;
+    color: black;
+    position:absolute;
+    z-index: 1;
+    align-self: flex-end;
+    margin: 10px; 
+    left: 0px;
+    border-radius: 15px;
+    height: max-content; 
+}
+.explore-text p{
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.explore-image{
+    opacity: 0.98;
 }
