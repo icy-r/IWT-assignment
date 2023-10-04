@@ -129,6 +129,7 @@ nav ul li a:hover::before{
 .line{
     border: 1px solid black;
     
+    
 }
 footer{
     position:absolute;
