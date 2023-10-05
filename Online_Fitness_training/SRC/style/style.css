@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url("/Online_Fitness_training/SRC/images/bg.jpg");
+    background-image: url("../images/bg.jpg");
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ nav ul li{
 }
 nav ul li a:hover::before{
     visibility: visible;
-    transform: scaleX(1);
+    transform:scaleX(1);
    
 }
 .line{
