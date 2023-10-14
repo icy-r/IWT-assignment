@@ -1,4 +1,108 @@
-
+<!--<style>
+    footer{
+    position:fixed;
+    bottom:0;
+    background-color:rgb(145, 136, 134);
+    display: flex;
+    width:100%;
+    height: 16%;
+    left: 0%;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+.footer-logo-text{
+    flex-shrink: 0;
+    padding-left: 1%;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+.footer1{
+    flex-shrink: 0;
+    padding-left: 1%;
+}
+.footer-logo{
+    height: 30px;
+    width: 30px;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.social{
+    flex-shrink: 0;
+    text-wrap: nowrap;
+    cursor: pointer;
+    padding-left: 1%;
+    align-self: flex-start;
+}
+.policy{
+    text-decoration: none;
+    color: black;
+    font-size: 8px;
+    padding-left: 1%;
+    text-align: center;
+    position: relative;
+}
+.policy1{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.footer-text{
+    font-size: 12px;
+}
+.footer-about{
+    text-align: center;
+    font-size: 12px;
+}
+span{
+    color:black;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: bold;
+}
+.f1rst{
+    width: 10%;
+    padding-left: 1%;
+    padding-right: 1%;
+    align-self: center;
+    justify-self: center;
+}
+.footer-about-parent{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.navfoot{
+    flex-shrink: 0;
+    border-style: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    margin-right: 1%;
+}
+.headfoot{
+    text-decoration: underline;
+}
+.footnav{
+    flex-shrink: 0;
+}
+.headfoot-text{
+    text-decoration: none;
+    color: black;
+}
+#contact-details{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+.contact-details{
+    font-size: 13px;
+}
+</style>-->
 <footer>
         <div class="f1rst">
     <div class="footer1">

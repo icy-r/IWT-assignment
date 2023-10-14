@@ -4,7 +4,7 @@ include("header.php");
 ?>
 <link rel="stylesheet" href="style/landing.css">
         <div class="container-body">
-            <div class="welcome-text">
+            <div class="welcome"><div class="welcome-text">
                 <h2 class="welcome-heading"> Your Potential with <br> Fitness Training </h2>
 
                 Welcome to a world where fitness knows no bounds. <br>
@@ -15,6 +15,7 @@ include("header.php");
                     <button id="get-started" onclick="">Let's Get Started</button>
                 </div>
             </div>
+         </div>
             <div class="explore">
                 <div class="wo1">
                     <div class="explore-text">
